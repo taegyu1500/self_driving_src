@@ -28,7 +28,6 @@ class StatePublisher(Node):
         else:
             self.get_logger().error('Invalid state type')
     
-    
 def main():
     rclpy.init()
     rclpy.spin(StatePublisher())

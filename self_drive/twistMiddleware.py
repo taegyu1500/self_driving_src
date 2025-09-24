@@ -20,21 +20,23 @@ class TwistMiddleware(Node):
         self.state_subscription = self.create_subscription(
             State, 'state', self.state_callback, 10)
         self.cmd_vel_publisher = self.create_publisher(Twist, 'cmd_vel', 10)
+        self.linear_speed = 0.5 # 기본 전진 속도
+        self.angular_speed = 0.5 # 기본 회전 속도
+        
         
     def state_callback(self, msg):
         twist = Twist()
         # 정지, 전진, 우회전, 주차 상태에 따라 Twist 메시지 설정
         # TODO: 별도 함수나 상수로 분리
         if msg == State.IDLE:
-            
             twist.linear.x = 0.0
             twist.angular.z = 0.0
         elif msg == State.GO_FORWARD:
-            twist.linear.x = 0.5  # 전진 속도
+            twist.linear.x = self.linear_speed  # 전진 속도
             twist.angular.z = 0.0
         elif msg == State.TURN_RIGHT:
             twist.linear.x = 0.0
-            twist.angular.z = -0.5  # 우회전 속도
+            twist.angular.z = -self.angular_speed  # 우회전 속도
         elif msg == State.PARK:
             twist.linear.x = 0.0
             twist.angular.z = 0.0  # 주차 시 정지
