@@ -1,0 +1,55 @@
+[3.102s] Invoking command in '/home/ubuntu/ros2_ws/src/build/calibration': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/calibration/prefix_override:/home/ubuntu/ros2_ws/src/install/calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/calibration/build --no-deps install_data
+[3.695s] running develop
+[3.696s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.696s] !!
+[3.696s] 
+[3.696s]         ********************************************************************************
+[3.696s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.696s]         Instead, use pypa/build, pypa/installer or other
+[3.696s]         standards-based tools.
+[3.696s] 
+[3.696s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.696s]         ********************************************************************************
+[3.697s] 
+[3.697s] !!
+[3.697s]   easy_install.initialize_options(self)
+[3.746s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.746s] !!
+[3.746s] 
+[3.746s]         ********************************************************************************
+[3.746s]         Please avoid running ``setup.py`` directly.
+[3.747s]         Instead, use pypa/build, pypa/installer or other
+[3.747s]         standards-based tools.
+[3.747s] 
+[3.747s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.747s]         ********************************************************************************
+[3.747s] 
+[3.747s] !!
+[3.747s]   self.initialize_options()
+[4.011s] running egg_info
+[4.038s] writing calibration.egg-info/PKG-INFO
+[4.042s] writing dependency_links to calibration.egg-info/dependency_links.txt
+[4.047s] writing entry points to calibration.egg-info/entry_points.txt
+[4.053s] writing requirements to calibration.egg-info/requires.txt
+[4.056s] writing top-level names to calibration.egg-info/top_level.txt
+[4.103s] reading manifest file 'calibration.egg-info/SOURCES.txt'
+[4.104s] writing manifest file 'calibration.egg-info/SOURCES.txt'
+[4.153s] running build_ext
+[4.153s] Creating /home/ubuntu/ros2_ws/src/install/calibration/lib/python3.10/site-packages/calibration.egg-link (link to .)
+[4.155s] Installing calibrate_angular script to /home/ubuntu/ros2_ws/src/install/calibration/lib/calibration
+[4.156s] Installing calibrate_linear script to /home/ubuntu/ros2_ws/src/install/calibration/lib/calibration
+[4.156s] 
+[4.156s] Installed /home/ubuntu/ros2_ws/src/build/calibration
+[4.156s] running install_data
+[4.157s] creating /home/ubuntu/ros2_ws/src/install/calibration/share/ament_index
+[4.157s] creating /home/ubuntu/ros2_ws/src/install/calibration/share/ament_index/resource_index
+[4.157s] creating /home/ubuntu/ros2_ws/src/install/calibration/share/ament_index/resource_index/packages
+[4.157s] copying resource/calibration -> /home/ubuntu/ros2_ws/src/install/calibration/share/ament_index/resource_index/packages
+[4.158s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/calibration/share/calibration
+[4.158s] creating /home/ubuntu/ros2_ws/src/install/calibration/share/calibration/launch
+[4.160s] copying launch/angular_calib.launch.py -> /home/ubuntu/ros2_ws/src/install/calibration/share/calibration/launch
+[4.161s] copying launch/linear_calib.launch.py -> /home/ubuntu/ros2_ws/src/install/calibration/share/calibration/launch
+[4.162s] creating /home/ubuntu/ros2_ws/src/install/calibration/share/calibration/config
+[4.162s] copying config/imu_calib.yaml -> /home/ubuntu/ros2_ws/src/install/calibration/share/calibration/config
+[4.163s] copying config/bk.yaml -> /home/ubuntu/ros2_ws/src/install/calibration/share/calibration/config
+[4.762s] Invoked command in '/home/ubuntu/ros2_ws/src/build/calibration' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/calibration/prefix_override:/home/ubuntu/ros2_ws/src/install/calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/calibration/build --no-deps install_data

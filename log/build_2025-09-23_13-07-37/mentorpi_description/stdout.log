@@ -1,0 +1,50 @@
+running develop
+running egg_info
+writing mentorpi_description.egg-info/PKG-INFO
+writing dependency_links to mentorpi_description.egg-info/dependency_links.txt
+writing requirements to mentorpi_description.egg-info/requires.txt
+writing top-level names to mentorpi_description.egg-info/top_level.txt
+reading manifest file 'mentorpi_description.egg-info/SOURCES.txt'
+writing manifest file 'mentorpi_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/lib/python3.10/site-packages/mentorpi-description.egg-link (link to .)
+
+Installed /home/ubuntu/ros2_ws/src/build/mentorpi_description
+running install_data
+creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/ament_index
+creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/ament_index/resource_index/packages
+copying resource/mentorpi_description -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description
+creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/launch
+copying launch/rviz.launch.py -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/launch
+copying launch/display.launch.py -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/launch
+copying launch/robot_description.launch.py -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/launch
+creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+copying urdf/imu.urdf.xacro -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+copying urdf/materials.xacro -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+copying urdf/inertial_matrix.xacro -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+copying urdf/mentorpi.xacro -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+copying urdf/ack.xacro -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+copying urdf/mecanum.xacro -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+copying urdf/lidar.urdf.xacro -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/rviz
+copying rviz/view.rviz -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/rviz
+creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes
+creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+copying meshes/acker/cam_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+copying meshes/acker/lidar_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+copying meshes/acker/wheel_rf_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+copying meshes/acker/wheel_rb_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+copying meshes/acker/imu_link.stl -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+copying meshes/acker/wheel_lf_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+copying meshes/acker/wheel_lb_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+copying meshes/acker/base_link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+copying meshes/mecanum/cam_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+copying meshes/mecanum/lidar_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+copying meshes/mecanum/wheel_rf_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+copying meshes/mecanum/wheel_rb_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+copying meshes/mecanum/wheel_lf_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+copying meshes/mecanum/wheel_lb_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+copying meshes/mecanum/base_link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum

@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/src/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/color_detect__rosidl_typesupport_fastrtps_cpp.hpp

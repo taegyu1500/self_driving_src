@@ -1,0 +1,45 @@
+[1.458s] Invoking command in '/home/ubuntu/ros2_ws/src/build/new_sensor': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/new_sensor/prefix_override:/home/ubuntu/ros2_ws/src/install/new_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/new_sensor/build --no-deps install_data
+[1.923s] running develop
+[1.923s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.923s] !!
+[1.923s] 
+[1.923s]         ********************************************************************************
+[1.923s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.923s]         Instead, use pypa/build, pypa/installer or other
+[1.923s]         standards-based tools.
+[1.923s] 
+[1.924s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.924s]         ********************************************************************************
+[1.924s] 
+[1.924s] !!
+[1.924s]   easy_install.initialize_options(self)
+[1.966s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.966s] !!
+[1.966s] 
+[1.966s]         ********************************************************************************
+[1.966s]         Please avoid running ``setup.py`` directly.
+[1.966s]         Instead, use pypa/build, pypa/installer or other
+[1.966s]         standards-based tools.
+[1.966s] 
+[1.966s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.966s]         ********************************************************************************
+[1.966s] 
+[1.966s] !!
+[1.966s]   self.initialize_options()
+[2.207s] running egg_info
+[2.226s] writing new_sensor.egg-info/PKG-INFO
+[2.227s] writing dependency_links to new_sensor.egg-info/dependency_links.txt
+[2.228s] writing entry points to new_sensor.egg-info/entry_points.txt
+[2.229s] writing requirements to new_sensor.egg-info/requires.txt
+[2.229s] writing top-level names to new_sensor.egg-info/top_level.txt
+[2.273s] reading manifest file 'new_sensor.egg-info/SOURCES.txt'
+[2.274s] writing manifest file 'new_sensor.egg-info/SOURCES.txt'
+[2.313s] running build_ext
+[2.313s] Creating /home/ubuntu/ros2_ws/src/install/new_sensor/lib/python3.10/site-packages/new-sensor.egg-link (link to .)
+[2.314s] Installing new_sensor script to /home/ubuntu/ros2_ws/src/install/new_sensor/lib/new_sensor
+[2.315s] Installing subscribe script to /home/ubuntu/ros2_ws/src/install/new_sensor/lib/new_sensor
+[2.315s] 
+[2.315s] Installed /home/ubuntu/ros2_ws/src/build/new_sensor
+[2.315s] running install_data
+[2.315s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/new_sensor/share/new_sensor
+[2.397s] Invoked command in '/home/ubuntu/ros2_ws/src/build/new_sensor' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/new_sensor/prefix_override:/home/ubuntu/ros2_ws/src/install/new_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/new_sensor/build --no-deps install_data

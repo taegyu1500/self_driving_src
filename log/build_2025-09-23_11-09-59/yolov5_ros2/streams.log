@@ -1,0 +1,45 @@
+[1.460s] Invoking command in '/home/ubuntu/ros2_ws/src/build/yolov5_ros2': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/yolov5_ros2/prefix_override:/home/ubuntu/ros2_ws/src/install/yolov5_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/yolov5_ros2/build --no-deps install_data
+[1.919s] running develop
+[1.919s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.920s] !!
+[1.920s] 
+[1.921s]         ********************************************************************************
+[1.921s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.921s]         Instead, use pypa/build, pypa/installer or other
+[1.921s]         standards-based tools.
+[1.921s] 
+[1.921s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.921s]         ********************************************************************************
+[1.921s] 
+[1.921s] !!
+[1.921s]   easy_install.initialize_options(self)
+[1.961s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.962s] !!
+[1.962s] 
+[1.962s]         ********************************************************************************
+[1.962s]         Please avoid running ``setup.py`` directly.
+[1.962s]         Instead, use pypa/build, pypa/installer or other
+[1.962s]         standards-based tools.
+[1.962s] 
+[1.962s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.962s]         ********************************************************************************
+[1.962s] 
+[1.962s] !!
+[1.962s]   self.initialize_options()
+[2.201s] running egg_info
+[2.221s] writing yolov5_ros2.egg-info/PKG-INFO
+[2.221s] writing dependency_links to yolov5_ros2.egg-info/dependency_links.txt
+[2.221s] writing entry points to yolov5_ros2.egg-info/entry_points.txt
+[2.224s] writing requirements to yolov5_ros2.egg-info/requires.txt
+[2.224s] writing top-level names to yolov5_ros2.egg-info/top_level.txt
+[2.268s] reading manifest file 'yolov5_ros2.egg-info/SOURCES.txt'
+[2.269s] writing manifest file 'yolov5_ros2.egg-info/SOURCES.txt'
+[2.308s] running build_ext
+[2.308s] Creating /home/ubuntu/ros2_ws/src/install/yolov5_ros2/lib/python3.10/site-packages/yolov5-ros2.egg-link (link to .)
+[2.309s] Installing yolo_detect script to /home/ubuntu/ros2_ws/src/install/yolov5_ros2/lib/yolov5_ros2
+[2.309s] 
+[2.309s] Installed /home/ubuntu/ros2_ws/src/build/yolov5_ros2
+[2.309s] running install_data
+[2.309s] copying launch/yolov5_ros2.launch.py -> /home/ubuntu/ros2_ws/src/install/yolov5_ros2/share/yolov5_ros2/launch
+[2.310s] copying config/best.pt -> /home/ubuntu/ros2_ws/src/install/yolov5_ros2/share/yolov5_ros2/config
+[2.415s] Invoked command in '/home/ubuntu/ros2_ws/src/build/yolov5_ros2' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/yolov5_ros2/prefix_override:/home/ubuntu/ros2_ws/src/install/yolov5_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/yolov5_ros2/build --no-deps install_data

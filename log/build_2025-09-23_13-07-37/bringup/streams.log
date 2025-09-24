@@ -1,0 +1,50 @@
+[3.191s] Invoking command in '/home/ubuntu/ros2_ws/src/build/bringup': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/bringup/prefix_override:/home/ubuntu/ros2_ws/src/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/bringup/build --no-deps install_data
+[3.803s] running develop
+[3.803s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.803s] !!
+[3.803s] 
+[3.803s]         ********************************************************************************
+[3.804s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.804s]         Instead, use pypa/build, pypa/installer or other
+[3.804s]         standards-based tools.
+[3.804s] 
+[3.804s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.804s]         ********************************************************************************
+[3.804s] 
+[3.804s] !!
+[3.804s]   easy_install.initialize_options(self)
+[3.848s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.848s] !!
+[3.848s] 
+[3.849s]         ********************************************************************************
+[3.849s]         Please avoid running ``setup.py`` directly.
+[3.849s]         Instead, use pypa/build, pypa/installer or other
+[3.849s]         standards-based tools.
+[3.849s] 
+[3.849s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.849s]         ********************************************************************************
+[3.849s] 
+[3.849s] !!
+[3.849s]   self.initialize_options()
+[4.125s] running egg_info
+[4.147s] writing bringup.egg-info/PKG-INFO
+[4.149s] writing dependency_links to bringup.egg-info/dependency_links.txt
+[4.155s] writing entry points to bringup.egg-info/entry_points.txt
+[4.160s] writing requirements to bringup.egg-info/requires.txt
+[4.166s] writing top-level names to bringup.egg-info/top_level.txt
+[4.219s] reading manifest file 'bringup.egg-info/SOURCES.txt'
+[4.221s] writing manifest file 'bringup.egg-info/SOURCES.txt'
+[4.249s] running build_ext
+[4.251s] Creating /home/ubuntu/ros2_ws/src/install/bringup/lib/python3.10/site-packages/bringup.egg-link (link to .)
+[4.252s] Installing startup_check script to /home/ubuntu/ros2_ws/src/install/bringup/lib/bringup
+[4.253s] 
+[4.253s] Installed /home/ubuntu/ros2_ws/src/build/bringup
+[4.253s] running install_data
+[4.253s] creating /home/ubuntu/ros2_ws/src/install/bringup/share/ament_index
+[4.253s] creating /home/ubuntu/ros2_ws/src/install/bringup/share/ament_index/resource_index
+[4.253s] creating /home/ubuntu/ros2_ws/src/install/bringup/share/ament_index/resource_index/packages
+[4.254s] copying resource/bringup -> /home/ubuntu/ros2_ws/src/install/bringup/share/ament_index/resource_index/packages
+[4.254s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/bringup/share/bringup
+[4.254s] creating /home/ubuntu/ros2_ws/src/install/bringup/share/bringup/launch
+[4.254s] copying launch/bringup.launch.py -> /home/ubuntu/ros2_ws/src/install/bringup/share/bringup/launch
+[4.390s] Invoked command in '/home/ubuntu/ros2_ws/src/build/bringup' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/bringup/prefix_override:/home/ubuntu/ros2_ws/src/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/bringup/build --no-deps install_data

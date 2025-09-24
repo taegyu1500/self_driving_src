@@ -1,0 +1,46 @@
+[2.135s] Invoking command in '/home/ubuntu/ros2_ws/src/build/sdk': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/sdk/prefix_override:/home/ubuntu/ros2_ws/src/install/sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/sdk/build --no-deps install_data
+[2.839s] running develop
+[2.839s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.840s] !!
+[2.840s] 
+[2.840s]         ********************************************************************************
+[2.840s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.840s]         Instead, use pypa/build, pypa/installer or other
+[2.840s]         standards-based tools.
+[2.840s] 
+[2.840s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.840s]         ********************************************************************************
+[2.840s] 
+[2.840s] !!
+[2.844s]   easy_install.initialize_options(self)
+[2.900s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.900s] !!
+[2.901s] 
+[2.901s]         ********************************************************************************
+[2.901s]         Please avoid running ``setup.py`` directly.
+[2.901s]         Instead, use pypa/build, pypa/installer or other
+[2.901s]         standards-based tools.
+[2.901s] 
+[2.901s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.901s]         ********************************************************************************
+[2.901s] 
+[2.901s] !!
+[2.901s]   self.initialize_options()
+[3.267s] running egg_info
+[3.300s] writing sdk.egg-info/PKG-INFO
+[3.306s] writing dependency_links to sdk.egg-info/dependency_links.txt
+[3.309s] writing requirements to sdk.egg-info/requires.txt
+[3.315s] writing top-level names to sdk.egg-info/top_level.txt
+[3.383s] reading manifest file 'sdk.egg-info/SOURCES.txt'
+[3.385s] writing manifest file 'sdk.egg-info/SOURCES.txt'
+[3.421s] running build_ext
+[3.422s] Creating /home/ubuntu/ros2_ws/src/install/sdk/lib/python3.10/site-packages/sdk.egg-link (link to .)
+[3.422s] 
+[3.422s] Installed /home/ubuntu/ros2_ws/src/build/sdk
+[3.423s] running install_data
+[3.423s] creating /home/ubuntu/ros2_ws/src/install/sdk/share/ament_index
+[3.423s] creating /home/ubuntu/ros2_ws/src/install/sdk/share/ament_index/resource_index
+[3.423s] creating /home/ubuntu/ros2_ws/src/install/sdk/share/ament_index/resource_index/packages
+[3.423s] copying resource/sdk -> /home/ubuntu/ros2_ws/src/install/sdk/share/ament_index/resource_index/packages
+[3.423s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/sdk/share/sdk
+[3.541s] Invoked command in '/home/ubuntu/ros2_ws/src/build/sdk' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/sdk/prefix_override:/home/ubuntu/ros2_ws/src/install/sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/sdk/build --no-deps install_data

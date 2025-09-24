@@ -1,0 +1,49 @@
+running develop
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running egg_info
+creating new_sensor.egg-info
+writing new_sensor.egg-info/PKG-INFO
+writing dependency_links to new_sensor.egg-info/dependency_links.txt
+writing entry points to new_sensor.egg-info/entry_points.txt
+writing requirements to new_sensor.egg-info/requires.txt
+writing top-level names to new_sensor.egg-info/top_level.txt
+writing manifest file 'new_sensor.egg-info/SOURCES.txt'
+reading manifest file 'new_sensor.egg-info/SOURCES.txt'
+writing manifest file 'new_sensor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/src/install/new_sensor/lib/python3.10/site-packages/new-sensor.egg-link (link to .)
+Installing new_sensor script to /home/ubuntu/ros2_ws/src/install/new_sensor/lib/new_sensor
+Installing yolosub script to /home/ubuntu/ros2_ws/src/install/new_sensor/lib/new_sensor
+
+Installed /home/ubuntu/ros2_ws/src/build/new_sensor
+running install_data
+creating /home/ubuntu/ros2_ws/src/install/new_sensor/share/ament_index
+creating /home/ubuntu/ros2_ws/src/install/new_sensor/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/src/install/new_sensor/share/ament_index/resource_index/packages
+copying resource/new_sensor -> /home/ubuntu/ros2_ws/src/install/new_sensor/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/src/install/new_sensor/share/new_sensor

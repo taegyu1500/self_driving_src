@@ -1,0 +1,27 @@
+running develop
+running egg_info
+writing calibration.egg-info/PKG-INFO
+writing dependency_links to calibration.egg-info/dependency_links.txt
+writing entry points to calibration.egg-info/entry_points.txt
+writing requirements to calibration.egg-info/requires.txt
+writing top-level names to calibration.egg-info/top_level.txt
+reading manifest file 'calibration.egg-info/SOURCES.txt'
+writing manifest file 'calibration.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/src/install/calibration/lib/python3.10/site-packages/calibration.egg-link (link to .)
+Installing calibrate_angular script to /home/ubuntu/ros2_ws/src/install/calibration/lib/calibration
+Installing calibrate_linear script to /home/ubuntu/ros2_ws/src/install/calibration/lib/calibration
+
+Installed /home/ubuntu/ros2_ws/src/build/calibration
+running install_data
+creating /home/ubuntu/ros2_ws/src/install/calibration/share/ament_index
+creating /home/ubuntu/ros2_ws/src/install/calibration/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/src/install/calibration/share/ament_index/resource_index/packages
+copying resource/calibration -> /home/ubuntu/ros2_ws/src/install/calibration/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/src/install/calibration/share/calibration
+creating /home/ubuntu/ros2_ws/src/install/calibration/share/calibration/launch
+copying launch/angular_calib.launch.py -> /home/ubuntu/ros2_ws/src/install/calibration/share/calibration/launch
+copying launch/linear_calib.launch.py -> /home/ubuntu/ros2_ws/src/install/calibration/share/calibration/launch
+creating /home/ubuntu/ros2_ws/src/install/calibration/share/calibration/config
+copying config/imu_calib.yaml -> /home/ubuntu/ros2_ws/src/install/calibration/share/calibration/config
+copying config/bk.yaml -> /home/ubuntu/ros2_ws/src/install/calibration/share/calibration/config

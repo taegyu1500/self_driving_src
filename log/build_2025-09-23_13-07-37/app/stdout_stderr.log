@@ -1,0 +1,67 @@
+running develop
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running egg_info
+writing app.egg-info/PKG-INFO
+writing dependency_links to app.egg-info/dependency_links.txt
+writing entry points to app.egg-info/entry_points.txt
+writing requirements to app.egg-info/requires.txt
+writing top-level names to app.egg-info/top_level.txt
+reading manifest file 'app.egg-info/SOURCES.txt'
+writing manifest file 'app.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app.egg-link (link to .)
+Installing ar_app script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+Installing hand_gesture script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+Installing hand_trajectory script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+Installing lidar_controller script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+Installing line_following script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+Installing object_tracking script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+
+Installed /home/ubuntu/ros2_ws/src/build/app
+running install_data
+creating /home/ubuntu/ros2_ws/src/install/app/share/ament_index
+creating /home/ubuntu/ros2_ws/src/install/app/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/src/install/app/share/ament_index/resource_index/packages
+copying resource/app -> /home/ubuntu/ros2_ws/src/install/app/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/src/install/app/share/app
+creating /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+copying launch/lidar_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+copying launch/object_tracking_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+copying launch/ar_app_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+copying launch/line_following_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+copying launch/hand_gesture_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+copying launch/start_app.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+creating /home/ubuntu/ros2_ws/src/install/app/share/app/models
+copying models/pirate-ship-fat.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+copying models/cow.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+copying models/bicycle.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+copying models/model.jpg -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+copying models/rat.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+copying models/chair.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+copying models/wolf.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+copying models/fox.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models

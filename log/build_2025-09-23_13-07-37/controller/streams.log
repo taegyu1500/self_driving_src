@@ -1,0 +1,58 @@
+[3.306s] Invoking command in '/home/ubuntu/ros2_ws/src/build/controller': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/controller/prefix_override:/home/ubuntu/ros2_ws/src/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/controller/build --no-deps install_data
+[3.851s] running develop
+[3.851s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.852s] !!
+[3.852s] 
+[3.852s]         ********************************************************************************
+[3.852s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.852s]         Instead, use pypa/build, pypa/installer or other
+[3.852s]         standards-based tools.
+[3.852s] 
+[3.852s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.852s]         ********************************************************************************
+[3.852s] 
+[3.852s] !!
+[3.852s]   easy_install.initialize_options(self)
+[3.897s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.897s] !!
+[3.897s] 
+[3.897s]         ********************************************************************************
+[3.897s]         Please avoid running ``setup.py`` directly.
+[3.897s]         Instead, use pypa/build, pypa/installer or other
+[3.898s]         standards-based tools.
+[3.898s] 
+[3.898s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.898s]         ********************************************************************************
+[3.898s] 
+[3.898s] !!
+[3.898s]   self.initialize_options()
+[4.257s] running egg_info
+[4.286s] writing controller.egg-info/PKG-INFO
+[4.288s] writing dependency_links to controller.egg-info/dependency_links.txt
+[4.294s] writing entry points to controller.egg-info/entry_points.txt
+[4.296s] writing requirements to controller.egg-info/requires.txt
+[4.300s] writing top-level names to controller.egg-info/top_level.txt
+[4.345s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[4.348s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[4.370s] running build_ext
+[4.370s] Creating /home/ubuntu/ros2_ws/src/install/controller/lib/python3.10/site-packages/controller.egg-link (link to .)
+[4.371s] Installing init_pose script to /home/ubuntu/ros2_ws/src/install/controller/lib/controller
+[4.371s] Installing odom_publisher script to /home/ubuntu/ros2_ws/src/install/controller/lib/controller
+[4.372s] 
+[4.372s] Installed /home/ubuntu/ros2_ws/src/build/controller
+[4.372s] running install_data
+[4.372s] creating /home/ubuntu/ros2_ws/src/install/controller/share/ament_index
+[4.372s] creating /home/ubuntu/ros2_ws/src/install/controller/share/ament_index/resource_index
+[4.372s] creating /home/ubuntu/ros2_ws/src/install/controller/share/ament_index/resource_index/packages
+[4.372s] copying resource/controller -> /home/ubuntu/ros2_ws/src/install/controller/share/ament_index/resource_index/packages
+[4.373s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/controller/share/controller
+[4.373s] creating /home/ubuntu/ros2_ws/src/install/controller/share/controller/launch
+[4.373s] copying launch/rf2o_laser_odometry.launch.py -> /home/ubuntu/ros2_ws/src/install/controller/share/controller/launch
+[4.373s] copying launch/odom_publisher.launch.py -> /home/ubuntu/ros2_ws/src/install/controller/share/controller/launch
+[4.374s] copying launch/init_pose.launch.py -> /home/ubuntu/ros2_ws/src/install/controller/share/controller/launch
+[4.374s] copying launch/controller.launch.py -> /home/ubuntu/ros2_ws/src/install/controller/share/controller/launch
+[4.375s] creating /home/ubuntu/ros2_ws/src/install/controller/share/controller/config
+[4.375s] copying config/ekf.yaml -> /home/ubuntu/ros2_ws/src/install/controller/share/controller/config
+[4.376s] copying config/calibrate_params.yaml -> /home/ubuntu/ros2_ws/src/install/controller/share/controller/config
+[4.376s] copying config/init_pose.yaml -> /home/ubuntu/ros2_ws/src/install/controller/share/controller/config
+[4.873s] Invoked command in '/home/ubuntu/ros2_ws/src/build/controller' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/controller/prefix_override:/home/ubuntu/ros2_ws/src/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/controller/build --no-deps install_data

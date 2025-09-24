@@ -1,0 +1,74 @@
+running develop
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running egg_info
+writing peripherals.egg-info/PKG-INFO
+writing dependency_links to peripherals.egg-info/dependency_links.txt
+writing entry points to peripherals.egg-info/entry_points.txt
+writing requirements to peripherals.egg-info/requires.txt
+writing top-level names to peripherals.egg-info/top_level.txt
+reading manifest file 'peripherals.egg-info/SOURCES.txt'
+writing manifest file 'peripherals.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/src/install/peripherals/lib/python3.10/site-packages/peripherals.egg-link (link to .)
+Installing joystick_control script to /home/ubuntu/ros2_ws/src/install/peripherals/lib/peripherals
+Installing teleop_key_control script to /home/ubuntu/ros2_ws/src/install/peripherals/lib/peripherals
+Installing tf_broadcaster_imu script to /home/ubuntu/ros2_ws/src/install/peripherals/lib/peripherals
+
+Installed /home/ubuntu/ros2_ws/src/build/peripherals
+running install_data
+creating /home/ubuntu/ros2_ws/src/install/peripherals/share/ament_index
+creating /home/ubuntu/ros2_ws/src/install/peripherals/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/src/install/peripherals/share/ament_index/resource_index/packages
+copying resource/peripherals -> /home/ubuntu/ros2_ws/src/install/peripherals/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals
+creating /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch
+copying launch/imu_filter.launch.py -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch
+copying launch/usb_cam.launch.py -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch
+copying launch/lidar.launch.py -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch
+copying launch/joystick_control.launch.py -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch
+copying launch/depth_camera.launch.py -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch
+copying launch/imu_view.launch.py -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch
+copying launch/lidar_view.launch.py -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch
+copying launch/teleop_key_control.launch.py -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch
+creating /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch/include
+copying launch/include/hp60c_cp.launch.py -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch/include
+copying launch/include/ascamera.launch.py -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch/include
+copying launch/include/hp60c.launch.py -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch/include
+copying launch/include/sllidar_a1.launch.py -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch/include
+copying launch/include/ldlidar_LD19.launch.py -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch/include
+copying launch/include/ydlidar_g4.launch.py -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/launch/include
+creating /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/config
+copying config/usb_cam_param.yaml -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/config
+copying config/lidar_filters_config_a1.yaml -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/config
+copying config/lidar_filters_config_g4.yaml -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/config
+copying config/lidar_filters_config_ld19.yaml -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/config
+copying config/lidar_filters_config_ld14p.yaml -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/config
+copying config/camera_info.yaml -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/config
+creating /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/rviz
+copying rviz/lidar_view.rviz -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/rviz
+copying rviz/imu_view.rviz -> /home/ubuntu/ros2_ws/src/install/peripherals/share/peripherals/rviz

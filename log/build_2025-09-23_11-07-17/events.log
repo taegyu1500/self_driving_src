@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000670] (-) JobUnselected: {'identifier': 'app'}
+[0.000867] (-) JobUnselected: {'identifier': 'bringup'}
+[0.000889] (-) JobUnselected: {'identifier': 'calibration'}
+[0.000908] (-) JobUnselected: {'identifier': 'controller'}
+[0.000925] (-) JobUnselected: {'identifier': 'example'}
+[0.000942] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000959] (-) JobUnselected: {'identifier': 'mentorpi_description'}
+[0.001048] (-) JobUnselected: {'identifier': 'multi'}
+[0.001066] (-) JobUnselected: {'identifier': 'navigation'}
+[0.001083] (-) JobUnselected: {'identifier': 'new_sensor'}
+[0.001099] (-) JobUnselected: {'identifier': 'peripherals'}
+[0.001116] (-) JobUnselected: {'identifier': 'ros_robot_controller'}
+[0.001133] (-) JobUnselected: {'identifier': 'ros_robot_controller_msgs'}
+[0.001150] (-) JobUnselected: {'identifier': 'sdk'}
+[0.001167] (-) JobUnselected: {'identifier': 'slam'}
+[0.001187] (yolov5_ros2) JobQueued: {'identifier': 'yolov5_ros2', 'dependencies': OrderedDict()}
+[0.001209] (yolov5_ros2) JobStarted: {'identifier': 'yolov5_ros2'}
+[0.099628] (-) TimerEvent: {}
+[0.203270] (-) TimerEvent: {}
+[0.303589] (-) TimerEvent: {}
+[0.403955] (-) TimerEvent: {}
+[0.504661] (-) TimerEvent: {}
+[0.605489] (-) TimerEvent: {}
+[0.705776] (-) TimerEvent: {}
+[0.806103] (-) TimerEvent: {}
+[0.906420] (-) TimerEvent: {}
+[1.006771] (-) TimerEvent: {}
+[1.107085] (-) TimerEvent: {}
+[1.207476] (-) TimerEvent: {}
+[1.307968] (-) TimerEvent: {}
+[1.408308] (-) TimerEvent: {}
+[1.471337] (yolov5_ros2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/ros2_ws/src/build/yolov5_ros2/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/build/yolov5_ros2', 'env': {'HOSTNAME': 'raspberrypi', 'ROS_PACKAGE_PATH': '/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp/share', 'SHLVL': '1', 'MACHINE_TYPE': 'MentorPi_Mecanum', 'LD_LIBRARY_PATH': '/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros/lib:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs/lib:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs/lib:/home/ubuntu/ros2_ws/install/interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/ubuntu/ros2_ws/src/third_party/ascamera/libs/lib/aarch64-linux-gnu:', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src/yolov5_ros2', 'CYCLONEDDS_URI': 'file:///etc/cyclonedds/config.xml', 'NVM_BIN': '/home/ubuntu/.nvm/versions/node/v20.11.1/bin', 'ZSH': '/home/ubuntu/.zsh', 'LIDAR_TYPE': 'LD19', 'NVM_INC': '/home/ubuntu/.nvm/versions/node/v20.11.1/include/node', 'need_compile': 'False', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'P9K_TTY': 'old', '_colcon_cd_root': '/opt/ros/humble/', 'NVM_DIR': '/home/ubuntu/.nvm', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install:/home/ubuntu/third_party_ros2/third_party_ws/install:/home/ubuntu/ros2_ws/install', 'LOGNAME': 'ubuntu', 'MASTER': '/', 'VERSION': '|V1.0.0|2024-10-24|', '_P9K_SSH_TTY': '/dev/pts/2', 'working_space': '/home/ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp/lib/aarch64-linux-gnu/pkgconfig:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp/lib/pkgconfig', 'TERM': 'xterm', 'DEPTH_CAMERA_TYPE': 'ascamera', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter/bin:/opt/ros/humble/bin:/home/ubuntu/.nvm/versions/node/v20.11.1/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'HISTSIZE': '10000', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'ROSDISTRO_INDEX_URL': 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install/yolov5_ros2:/home/ubuntu/ros2_ws/src/install/new_sensor:/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/yolov5_ros2:/home/ubuntu/ros2_ws/install/slam:/home/ubuntu/ros2_ws/install/sdk:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller:/home/ubuntu/ros2_ws/install/peripherals:/home/ubuntu/ros2_ws/install/navigation:/home/ubuntu/ros2_ws/install/multi:/home/ubuntu/ros2_ws/install/mentorpi_description:/home/ubuntu/ros2_ws/install/interfaces:/home/ubuntu/ros2_ws/install/example:/home/ubuntu/ros2_ws/install/controller:/home/ubuntu/ros2_ws/install/calibration:/home/ubuntu/ros2_ws/install/bringup:/home/ubuntu/ros2_ws/install/app:/opt/ros/humble', 'HOST': '/', 'P9K_SSH': '0', 'SAVEHIST': '10000', 'PWD': '/home/ubuntu/ros2_ws/src/build/yolov5_ros2', '_P9K_TTY': '/dev/pts/2', 'ASR_LANGUAGE': 'Chinese', 'RCUTILS_COLORIZED_OUTPUT': '1', 'NVM_CD_FLAGS': '-q', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/build/yolov5_ros2/prefix_override:/home/ubuntu/ros2_ws/src/install/yolov5_ros2/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/yolov5_ros2/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/build/new_sensor:/home/ubuntu/ros2_ws/src/install/new_sensor/lib/python3.10/site-packages:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/build/yolov5_ros2:/home/ubuntu/ros2_ws/install/yolov5_ros2/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/slam:/home/ubuntu/ros2_ws/install/slam/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/sdk:/home/ubuntu/ros2_ws/install/sdk/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/build/ros_robot_controller:/home/ubuntu/ros2_ws/install/ros_robot_controller/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/peripherals:/home/ubuntu/ros2_ws/install/peripherals/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/navigation:/home/ubuntu/ros2_ws/install/navigation/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/multi:/home/ubuntu/ros2_ws/install/multi/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/mentorpi_description:/home/ubuntu/ros2_ws/install/mentorpi_description/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/interfaces/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws/build/example:/home/ubuntu/ros2_ws/install/example/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/controller:/home/ubuntu/ros2_ws/install/controller/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/calibration:/home/ubuntu/ros2_ws/install/calibration/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/bringup:/home/ubuntu/ros2_ws/install/bringup/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/build/app:/home/ubuntu/ros2_ws/install/app/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HISTFILE': '/home/ubuntu/.zsh/.zsh_history', 'COLCON': '1', 'AUDIODRIVER': 'alsa', 'CMAKE_PREFIX_PATH': '/home/ubuntu/third_party_ros2/third_party_ws/install/ydlidar_ros2_driver:/home/ubuntu/third_party_ros2/third_party_ws/install/web_video_server:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_local_planner:/home/ubuntu/third_party_ros2/third_party_ws/install/teb_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/sllidar_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/rf2o_laser_odometry:/home/ubuntu/third_party_ros2/third_party_ws/install/ldlidar_stl_ros2:/home/ubuntu/third_party_ros2/third_party_ws/install/laser_filters:/home/ubuntu/third_party_ros2/third_party_ws/install/imu_calib:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter:/home/ubuntu/third_party_ros2/third_party_ws/install/costmap_converter_msgs:/home/ubuntu/third_party_ros2/third_party_ws/install/async_web_server_cpp:/home/ubuntu/third_party_ros2/third_party_ws/install/ascamera:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_ros:/home/ubuntu/third_party_ros2/third_party_ws/install/apriltag_msgs:/home/ubuntu/ros2_ws/install/ros_robot_controller_msgs:/home/ubuntu/ros2_ws/install/interfaces'}, 'shell': False}
+[1.508390] (-) TimerEvent: {}
+[1.608703] (-) TimerEvent: {}
+[1.709027] (-) TimerEvent: {}
+[1.809336] (-) TimerEvent: {}
+[1.909649] (-) TimerEvent: {}
+[1.927376] (yolov5_ros2) StdoutLine: {'line': b'running develop\n'}
+[1.927609] (yolov5_ros2) StderrLine: {'line': b'/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[1.927699] (yolov5_ros2) StderrLine: {'line': b'!!\n'}
+[1.927760] (yolov5_ros2) StderrLine: {'line': b'\n'}
+[1.927816] (yolov5_ros2) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.927872] (yolov5_ros2) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[1.927926] (yolov5_ros2) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.927979] (yolov5_ros2) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.928032] (yolov5_ros2) StderrLine: {'line': b'\n'}
+[1.928087] (yolov5_ros2) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[1.928140] (yolov5_ros2) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.928193] (yolov5_ros2) StderrLine: {'line': b'\n'}
+[1.928244] (yolov5_ros2) StderrLine: {'line': b'!!\n'}
+[1.928295] (yolov5_ros2) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[1.969614] (yolov5_ros2) StderrLine: {'line': b'/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.969808] (yolov5_ros2) StderrLine: {'line': b'!!\n'}
+[1.969867] (yolov5_ros2) StderrLine: {'line': b'\n'}
+[1.969922] (yolov5_ros2) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.969976] (yolov5_ros2) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.970028] (yolov5_ros2) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.970081] (yolov5_ros2) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.970134] (yolov5_ros2) StderrLine: {'line': b'\n'}
+[1.970185] (yolov5_ros2) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.970239] (yolov5_ros2) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.970291] (yolov5_ros2) StderrLine: {'line': b'\n'}
+[1.970343] (yolov5_ros2) StderrLine: {'line': b'!!\n'}
+[1.970394] (yolov5_ros2) StderrLine: {'line': b'  self.initialize_options()\n'}
+[2.009734] (-) TimerEvent: {}
+[2.110037] (-) TimerEvent: {}
+[2.207313] (yolov5_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[2.210098] (-) TimerEvent: {}
+[2.222169] (yolov5_ros2) StdoutLine: {'line': b'writing yolov5_ros2.egg-info/PKG-INFO\n'}
+[2.222898] (yolov5_ros2) StdoutLine: {'line': b'writing dependency_links to yolov5_ros2.egg-info/dependency_links.txt\n'}
+[2.223771] (yolov5_ros2) StdoutLine: {'line': b'writing entry points to yolov5_ros2.egg-info/entry_points.txt\n'}
+[2.224472] (yolov5_ros2) StdoutLine: {'line': b'writing requirements to yolov5_ros2.egg-info/requires.txt\n'}
+[2.225118] (yolov5_ros2) StdoutLine: {'line': b'writing top-level names to yolov5_ros2.egg-info/top_level.txt\n'}
+[2.268057] (yolov5_ros2) StdoutLine: {'line': b"reading manifest file 'yolov5_ros2.egg-info/SOURCES.txt'\n"}
+[2.269293] (yolov5_ros2) StdoutLine: {'line': b"writing manifest file 'yolov5_ros2.egg-info/SOURCES.txt'\n"}
+[2.307894] (yolov5_ros2) StdoutLine: {'line': b'running build_ext\n'}
+[2.308117] (yolov5_ros2) StdoutLine: {'line': b'Creating /home/ubuntu/ros2_ws/src/install/yolov5_ros2/lib/python3.10/site-packages/yolov5-ros2.egg-link (link to .)\n'}
+[2.309052] (yolov5_ros2) StdoutLine: {'line': b'Installing yolo_detect script to /home/ubuntu/ros2_ws/src/install/yolov5_ros2/lib/yolov5_ros2\n'}
+[2.309461] (yolov5_ros2) StdoutLine: {'line': b'\n'}
+[2.309525] (yolov5_ros2) StdoutLine: {'line': b'Installed /home/ubuntu/ros2_ws/src/build/yolov5_ros2\n'}
+[2.309603] (yolov5_ros2) StdoutLine: {'line': b'running install_data\n'}
+[2.309832] (yolov5_ros2) StdoutLine: {'line': b'copying launch/yolov5_ros2.launch.py -> /home/ubuntu/ros2_ws/src/install/yolov5_ros2/share/yolov5_ros2/launch\n'}
+[2.310159] (-) TimerEvent: {}
+[2.310284] (yolov5_ros2) StdoutLine: {'line': b'copying config/best.pt -> /home/ubuntu/ros2_ws/src/install/yolov5_ros2/share/yolov5_ros2/config\n'}
+[2.410293] (-) TimerEvent: {}
+[2.413268] (yolov5_ros2) CommandEnded: {'returncode': 0}
+[2.504065] (yolov5_ros2) JobEnded: {'identifier': 'yolov5_ros2', 'rc': 0}
+[2.506246] (-) EventReactorShutdown: {}

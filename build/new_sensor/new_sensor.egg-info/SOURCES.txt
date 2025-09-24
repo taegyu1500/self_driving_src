@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+new_sensor/__init__.py
+new_sensor/depth_rgb_filter.py
+new_sensor/yolo_filter_subscribe.py
+new_sensor.egg-info/PKG-INFO
+new_sensor.egg-info/SOURCES.txt
+new_sensor.egg-info/dependency_links.txt
+new_sensor.egg-info/entry_points.txt
+new_sensor.egg-info/requires.txt
+new_sensor.egg-info/top_level.txt
+new_sensor.egg-info/zip-safe
+resource/new_sensor

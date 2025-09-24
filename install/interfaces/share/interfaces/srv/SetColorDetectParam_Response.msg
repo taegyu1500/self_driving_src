@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/src/build/interfaces/rosidl_cmake/srv/SetColorDetectParam_Response.msg

@@ -1,0 +1,96 @@
+[2.781s] Invoking command in '/home/ubuntu/ros2_ws/src/build/example': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/example/prefix_override:/home/ubuntu/ros2_ws/src/install/example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/example/build --no-deps install_data
+[3.458s] running develop
+[3.458s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.458s] !!
+[3.458s] 
+[3.458s]         ********************************************************************************
+[3.458s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.458s]         Instead, use pypa/build, pypa/installer or other
+[3.458s]         standards-based tools.
+[3.458s] 
+[3.458s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.458s]         ********************************************************************************
+[3.458s] 
+[3.458s] !!
+[3.459s]   easy_install.initialize_options(self)
+[3.504s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.504s] !!
+[3.504s] 
+[3.504s]         ********************************************************************************
+[3.504s]         Please avoid running ``setup.py`` directly.
+[3.504s]         Instead, use pypa/build, pypa/installer or other
+[3.504s]         standards-based tools.
+[3.504s] 
+[3.504s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.505s]         ********************************************************************************
+[3.505s] 
+[3.505s] !!
+[3.505s]   self.initialize_options()
+[3.802s] running egg_info
+[3.828s] writing example.egg-info/PKG-INFO
+[3.831s] writing dependency_links to example.egg-info/dependency_links.txt
+[3.836s] writing entry points to example.egg-info/entry_points.txt
+[3.838s] writing requirements to example.egg-info/requires.txt
+[3.844s] writing top-level names to example.egg-info/top_level.txt
+[3.895s] reading manifest file 'example.egg-info/SOURCES.txt'
+[3.897s] writing manifest file 'example.egg-info/SOURCES.txt'
+[3.936s] running build_ext
+[3.937s] Creating /home/ubuntu/ros2_ws/src/install/example/lib/python3.10/site-packages/example.egg-link (link to .)
+[3.938s] Installing automatic_pick script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.939s] Installing body_and_rgb_control script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.939s] Installing body_control script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.940s] Installing body_track script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.940s] Installing color_detect script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.941s] Installing color_sorting script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.941s] Installing color_track script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.941s] Installing cross_bridge script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.942s] Installing fall_down_detect script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.942s] Installing finger_control script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.943s] Installing garbage_classification script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.944s] Installing hand_detect script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.944s] Installing hand_gesture_control script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.945s] Installing hand_track script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.945s] Installing hand_trajectory script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.945s] Installing line_follow_clean script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.946s] Installing navigation_transport script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.946s] Installing object_classification script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.947s] Installing prevent_falling script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.947s] Installing self_driving script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.947s] Installing track_and_grab script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.948s] Installing track_object script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.948s] Installing vc_object_classification script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.949s] Installing vc_track_and_grab script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.949s] Installing yolov5_node script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+[3.950s] 
+[3.950s] Installed /home/ubuntu/ros2_ws/src/build/example
+[3.951s] running install_data
+[3.951s] creating /home/ubuntu/ros2_ws/src/install/example/share/ament_index
+[3.951s] creating /home/ubuntu/ros2_ws/src/install/example/share/ament_index/resource_index
+[3.951s] creating /home/ubuntu/ros2_ws/src/install/example/share/ament_index/resource_index/packages
+[3.952s] copying resource/example -> /home/ubuntu/ros2_ws/src/install/example/share/ament_index/resource_index/packages
+[3.952s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/example/share/example
+[3.953s] creating /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+[3.954s] copying example/hand_trajectory/hand_trajectory_node.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+[3.955s] copying example/hand_trajectory/finger_control.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+[3.957s] copying example/color_detect/color_detect_node.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+[3.958s] copying example/hand_track/hand_track_node.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+[3.959s] copying example/color_sorting/color_sorting_node.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+[3.960s] copying example/color_track/color_track_node.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+[3.962s] copying example/hand_gesture_control/hand_gesture_control_node.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+[3.962s] copying example/self_driving/self_driving.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+[3.968s] copying example/body_control/body_and_rgb_control.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+[3.970s] copying example/body_control/body_control.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+[3.974s] copying example/body_control/body_track.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+[3.975s] copying example/body_control/fall_down_detect.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+[3.976s] creating /home/ubuntu/ros2_ws/src/install/example/share/example/config
+[3.977s] copying config/line_follow_clean_roi.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+[3.982s] copying config/automatic_pick_roi.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+[3.983s] copying config/object_classification_plane_distance.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+[3.990s] copying config/roi.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+[3.990s] copying config/bridge_plane_distance.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+[3.990s] copying config/plane_distance.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+[3.990s] copying config/color_sorting_roi.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+[3.990s] copying config/garbage_classification_roi.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+[3.990s] creating /home/ubuntu/ros2_ws/src/install/example/share/example/resource
+[3.990s] copying resource/flag.dae -> /home/ubuntu/ros2_ws/src/install/example/share/example/resource
+[4.087s] Invoked command in '/home/ubuntu/ros2_ws/src/build/example' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/example/prefix_override:/home/ubuntu/ros2_ws/src/install/example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/example/build --no-deps install_data

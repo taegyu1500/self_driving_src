@@ -1,0 +1,582 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ros2_ws/src/build/interfaces
+[  0%] Built target interfaces__cpp
+[35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_c[0m
+[  0%] Built target ament_cmake_python_symlink_interfaces
+[35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[ 13%] Built target interfaces__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 25%] Built target interfaces__rosidl_typesupport_cpp
+[ 50%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[ 38%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c[0m
+[ 62%] Built target interfaces__rosidl_typesupport_c
+[ 74%] Built target interfaces__rosidl_typesupport_introspection_c
+[ 86%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[ 86%] Built target interfaces
+[ 86%] Built target interfaces__py
+[35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_py[0m
+running egg_info
+[ 97%] Built target interfaces__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+writing interfaces.egg-info/PKG-INFO
+writing dependency_links to interfaces.egg-info/dependency_links.txt
+writing top-level names to interfaces.egg-info/top_level.txt
+[ 98%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 99%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target interfaces__rosidl_typesupport_c__pyext
+reading manifest file 'interfaces.egg-info/SOURCES.txt'
+writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_interfaces_egg
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/color_detect.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/color_info.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/colors_info.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/points__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/points__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/points__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/roi__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/roi__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/roi__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/line_roi.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/object_info.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/objects_info.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/pixel_position.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/point2_d.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/points.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/pose2_d.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/roi.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__functions.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__struct.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__type_support.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/get_pose.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_circle_roi.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_color_detect_param.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_color_rgba.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_float64.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_float64_list.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_int64.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_line_roi.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_point.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_pose.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_pose2_d.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_string.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_string_list.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/environment/library_path.sh
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/environment/library_path.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/color_detect.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/color_info.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/colors_info.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/points__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/points__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/points__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/roi__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/roi__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/roi__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/line_roi.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/object_info.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/objects_info.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/pixel_position.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/point2_d.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/points.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/pose2_d.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/roi.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__builder.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__struct.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__traits.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/get_pose.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_circle_roi.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_color_detect_param.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_color_rgba.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_float64.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_float64_list.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_int64.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_line_roi.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_point.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_pose.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_pose2_d.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_string.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/set_string_list.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/environment/pythonpath.sh
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/environment/pythonpath.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_detect.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_detect_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_info.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_info_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_colors_info.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_colors_info_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_line_roi.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_line_roi_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_object_info.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_object_info_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_objects_info.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_objects_info_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pixel_position.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pixel_position_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_point2_d.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_point2_d_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_points.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_points_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pose2_d.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pose2_d_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_roi.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_roi_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_pose.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_pose_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_circle_roi.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_circle_roi_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_detect_param.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_detect_param_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_rgba.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_rgba_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64_list.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64_list_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_int64.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_int64_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_line_roi.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_line_roi_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_point.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_point_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose2_d.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose2_d_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_list.py
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_list_s.c
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_s.c
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/ColorDetect.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/ColorInfo.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/ColorsInfo.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/LineROI.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/ObjectInfo.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/ObjectsInfo.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/PixelPosition.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/Point2D.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/Points.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/Pose2D.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/ROI.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/GetPose.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetCircleROI.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetColorDetectParam.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetColorRGBA.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetFloat64List.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetFloat64.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetInt64.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetLineROI.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetPoint.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetPose2D.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetPose.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetStringList.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetString.idl
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/ColorDetect.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/ColorInfo.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/ColorsInfo.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/LineROI.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/ObjectInfo.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/ObjectsInfo.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/PixelPosition.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/Point2D.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/Points.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/Pose2D.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/msg/ROI.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/GetPose.srv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/GetPose_Request.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/GetPose_Response.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetCircleROI.srv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetCircleROI_Request.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetCircleROI_Response.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetColorDetectParam.srv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetColorDetectParam_Request.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetColorDetectParam_Response.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetColorRGBA.srv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetColorRGBA_Request.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetColorRGBA_Response.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetFloat64List.srv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetFloat64List_Request.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetFloat64List_Response.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetFloat64.srv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetFloat64_Request.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetFloat64_Response.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetInt64.srv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetInt64_Request.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetInt64_Response.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetLineROI.srv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetLineROI_Request.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetLineROI_Response.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetPoint.srv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetPoint_Request.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetPoint_Response.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetPose2D.srv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetPose2D_Request.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetPose2D_Response.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetPose.srv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetPose_Request.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetPose_Response.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetStringList.srv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetStringList_Request.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetStringList_Response.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetString.srv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetString_Request.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/srv/SetString_Response.msg
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/mapping_rules.yaml
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/environment/path.sh
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/environment/path.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/local_setup.bash
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/local_setup.sh
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/local_setup.zsh
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/local_setup.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/package.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/ament_index/resource_index/packages/interfaces
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/package.xml
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+Listing '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+Listing '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_detect.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_info.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_colors_info.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_line_roi.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_object_info.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_objects_info.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pixel_position.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_point2_d.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_points.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pose2_d.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_roi.py'...
+Listing '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_pose.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_circle_roi.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_detect_param.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_rgba.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64_list.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_int64.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_line_roi.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_point.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose2_d.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string.py'...
+Compiling '/home/ubuntu/ros2_ws/src/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_list.py'...
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+-- Set runtime path of "/home/ubuntu/ros2_ws/src/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-release.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-release.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/ubuntu/ros2_ws/src/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-release.cmake

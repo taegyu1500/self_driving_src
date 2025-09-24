@@ -1,0 +1,3 @@
+[console_scripts]
+new_sensor = new_sensor.depth_rgb_filter:main
+subscribe = new_sensor.yolo_filter_subscribe:main

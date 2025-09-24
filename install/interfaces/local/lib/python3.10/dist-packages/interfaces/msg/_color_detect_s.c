@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/src/build/interfaces/rosidl_generator_py/interfaces/msg/_color_detect_s.c

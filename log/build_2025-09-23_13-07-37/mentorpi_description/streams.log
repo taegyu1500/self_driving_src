@@ -1,0 +1,78 @@
+[2.879s] Invoking command in '/home/ubuntu/ros2_ws/src/build/mentorpi_description': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/mentorpi_description/prefix_override:/home/ubuntu/ros2_ws/src/install/mentorpi_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/mentorpi_description/build --no-deps install_data
+[3.457s] running develop
+[3.457s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.457s] !!
+[3.457s] 
+[3.457s]         ********************************************************************************
+[3.457s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.457s]         Instead, use pypa/build, pypa/installer or other
+[3.457s]         standards-based tools.
+[3.457s] 
+[3.457s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.457s]         ********************************************************************************
+[3.457s] 
+[3.458s] !!
+[3.458s]   easy_install.initialize_options(self)
+[3.507s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.507s] !!
+[3.507s] 
+[3.508s]         ********************************************************************************
+[3.508s]         Please avoid running ``setup.py`` directly.
+[3.508s]         Instead, use pypa/build, pypa/installer or other
+[3.508s]         standards-based tools.
+[3.508s] 
+[3.508s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.508s]         ********************************************************************************
+[3.508s] 
+[3.508s] !!
+[3.508s]   self.initialize_options()
+[3.828s] running egg_info
+[3.853s] writing mentorpi_description.egg-info/PKG-INFO
+[3.855s] writing dependency_links to mentorpi_description.egg-info/dependency_links.txt
+[3.886s] writing requirements to mentorpi_description.egg-info/requires.txt
+[3.887s] writing top-level names to mentorpi_description.egg-info/top_level.txt
+[3.925s] reading manifest file 'mentorpi_description.egg-info/SOURCES.txt'
+[3.926s] writing manifest file 'mentorpi_description.egg-info/SOURCES.txt'
+[3.953s] running build_ext
+[3.953s] Creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/lib/python3.10/site-packages/mentorpi-description.egg-link (link to .)
+[3.954s] 
+[3.954s] Installed /home/ubuntu/ros2_ws/src/build/mentorpi_description
+[3.956s] running install_data
+[3.956s] creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/ament_index
+[3.961s] creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/ament_index/resource_index
+[3.961s] creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/ament_index/resource_index/packages
+[3.961s] copying resource/mentorpi_description -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/ament_index/resource_index/packages
+[3.961s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description
+[3.961s] creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/launch
+[3.961s] copying launch/rviz.launch.py -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/launch
+[3.968s] copying launch/display.launch.py -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/launch
+[3.968s] copying launch/robot_description.launch.py -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/launch
+[3.969s] creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+[3.969s] copying urdf/imu.urdf.xacro -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+[3.969s] copying urdf/materials.xacro -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+[3.969s] copying urdf/inertial_matrix.xacro -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+[3.969s] copying urdf/mentorpi.xacro -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+[3.971s] copying urdf/ack.xacro -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+[3.972s] copying urdf/mecanum.xacro -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+[3.973s] copying urdf/lidar.urdf.xacro -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/urdf
+[3.975s] creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/rviz
+[3.975s] copying rviz/view.rviz -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/rviz
+[3.977s] creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes
+[3.978s] creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[3.978s] copying meshes/acker/cam_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.045s] copying meshes/acker/lidar_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.061s] copying meshes/acker/wheel_rf_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.103s] copying meshes/acker/wheel_rb_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.146s] copying meshes/acker/imu_link.stl -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.147s] copying meshes/acker/wheel_lf_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.188s] copying meshes/acker/wheel_lb_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.244s] copying meshes/acker/base_link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/acker
+[4.255s] creating /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[4.255s] copying meshes/mecanum/cam_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[4.330s] copying meshes/mecanum/lidar_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[4.349s] copying meshes/mecanum/wheel_rf_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[4.486s] copying meshes/mecanum/wheel_rb_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[4.658s] copying meshes/mecanum/wheel_lf_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[4.846s] copying meshes/mecanum/wheel_lb_Link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[5.011s] copying meshes/mecanum/base_link.STL -> /home/ubuntu/ros2_ws/src/install/mentorpi_description/share/mentorpi_description/meshes/mecanum
+[5.343s] Invoked command in '/home/ubuntu/ros2_ws/src/build/mentorpi_description' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/mentorpi_description/prefix_override:/home/ubuntu/ros2_ws/src/install/mentorpi_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/mentorpi_description/build --no-deps install_data

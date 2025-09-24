@@ -1,0 +1,94 @@
+running develop
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running egg_info
+writing example.egg-info/PKG-INFO
+writing dependency_links to example.egg-info/dependency_links.txt
+writing entry points to example.egg-info/entry_points.txt
+writing requirements to example.egg-info/requires.txt
+writing top-level names to example.egg-info/top_level.txt
+reading manifest file 'example.egg-info/SOURCES.txt'
+writing manifest file 'example.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/src/install/example/lib/python3.10/site-packages/example.egg-link (link to .)
+Installing automatic_pick script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing body_and_rgb_control script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing body_control script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing body_track script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing color_detect script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing color_sorting script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing color_track script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing cross_bridge script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing fall_down_detect script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing finger_control script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing garbage_classification script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing hand_detect script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing hand_gesture_control script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing hand_track script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing hand_trajectory script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing line_follow_clean script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing navigation_transport script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing object_classification script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing prevent_falling script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing self_driving script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing track_and_grab script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing track_object script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing vc_object_classification script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing vc_track_and_grab script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+Installing yolov5_node script to /home/ubuntu/ros2_ws/src/install/example/lib/example
+
+Installed /home/ubuntu/ros2_ws/src/build/example
+running install_data
+creating /home/ubuntu/ros2_ws/src/install/example/share/ament_index
+creating /home/ubuntu/ros2_ws/src/install/example/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/src/install/example/share/ament_index/resource_index/packages
+copying resource/example -> /home/ubuntu/ros2_ws/src/install/example/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/src/install/example/share/example
+creating /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+copying example/hand_trajectory/hand_trajectory_node.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+copying example/hand_trajectory/finger_control.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+copying example/color_detect/color_detect_node.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+copying example/hand_track/hand_track_node.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+copying example/color_sorting/color_sorting_node.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+copying example/color_track/color_track_node.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+copying example/hand_gesture_control/hand_gesture_control_node.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+copying example/self_driving/self_driving.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+copying example/body_control/body_and_rgb_control.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+copying example/body_control/body_control.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+copying example/body_control/body_track.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+copying example/body_control/fall_down_detect.launch.py -> /home/ubuntu/ros2_ws/src/install/example/share/example/launch
+creating /home/ubuntu/ros2_ws/src/install/example/share/example/config
+copying config/line_follow_clean_roi.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+copying config/automatic_pick_roi.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+copying config/object_classification_plane_distance.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+copying config/roi.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+copying config/bridge_plane_distance.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+copying config/plane_distance.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+copying config/color_sorting_roi.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+copying config/garbage_classification_roi.yaml -> /home/ubuntu/ros2_ws/src/install/example/share/example/config
+creating /home/ubuntu/ros2_ws/src/install/example/share/example/resource
+copying resource/flag.dae -> /home/ubuntu/ros2_ws/src/install/example/share/example/resource

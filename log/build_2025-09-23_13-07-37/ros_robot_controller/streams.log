@@ -1,0 +1,50 @@
+[2.312s] Invoking command in '/home/ubuntu/ros2_ws/src/build/ros_robot_controller': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/ros_robot_controller/prefix_override:/home/ubuntu/ros2_ws/src/install/ros_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/ros_robot_controller/build --no-deps install_data
+[2.968s] running develop
+[2.969s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.969s] !!
+[2.969s] 
+[2.969s]         ********************************************************************************
+[2.969s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.970s]         Instead, use pypa/build, pypa/installer or other
+[2.970s]         standards-based tools.
+[2.970s] 
+[2.970s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.970s]         ********************************************************************************
+[2.970s] 
+[2.970s] !!
+[2.970s]   easy_install.initialize_options(self)
+[3.022s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.022s] !!
+[3.022s] 
+[3.022s]         ********************************************************************************
+[3.022s]         Please avoid running ``setup.py`` directly.
+[3.022s]         Instead, use pypa/build, pypa/installer or other
+[3.022s]         standards-based tools.
+[3.022s] 
+[3.022s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.022s]         ********************************************************************************
+[3.023s] 
+[3.023s] !!
+[3.023s]   self.initialize_options()
+[3.376s] running egg_info
+[3.412s] writing ros_robot_controller.egg-info/PKG-INFO
+[3.414s] writing dependency_links to ros_robot_controller.egg-info/dependency_links.txt
+[3.419s] writing entry points to ros_robot_controller.egg-info/entry_points.txt
+[3.422s] writing requirements to ros_robot_controller.egg-info/requires.txt
+[3.426s] writing top-level names to ros_robot_controller.egg-info/top_level.txt
+[3.505s] reading manifest file 'ros_robot_controller.egg-info/SOURCES.txt'
+[3.508s] writing manifest file 'ros_robot_controller.egg-info/SOURCES.txt'
+[3.550s] running build_ext
+[3.550s] Creating /home/ubuntu/ros2_ws/src/install/ros_robot_controller/lib/python3.10/site-packages/ros-robot-controller.egg-link (link to .)
+[3.552s] Installing ros_robot_controller script to /home/ubuntu/ros2_ws/src/install/ros_robot_controller/lib/ros_robot_controller
+[3.553s] 
+[3.553s] Installed /home/ubuntu/ros2_ws/src/build/ros_robot_controller
+[3.554s] running install_data
+[3.554s] creating /home/ubuntu/ros2_ws/src/install/ros_robot_controller/share/ament_index
+[3.555s] creating /home/ubuntu/ros2_ws/src/install/ros_robot_controller/share/ament_index/resource_index
+[3.555s] creating /home/ubuntu/ros2_ws/src/install/ros_robot_controller/share/ament_index/resource_index/packages
+[3.556s] copying resource/ros_robot_controller -> /home/ubuntu/ros2_ws/src/install/ros_robot_controller/share/ament_index/resource_index/packages
+[3.556s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/ros_robot_controller/share/ros_robot_controller
+[3.558s] creating /home/ubuntu/ros2_ws/src/install/ros_robot_controller/share/ros_robot_controller/launch
+[3.558s] copying launch/ros_robot_controller.launch.py -> /home/ubuntu/ros2_ws/src/install/ros_robot_controller/share/ros_robot_controller/launch
+[3.676s] Invoked command in '/home/ubuntu/ros2_ws/src/build/ros_robot_controller' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/ros_robot_controller/prefix_override:/home/ubuntu/ros2_ws/src/install/ros_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/ros_robot_controller/build --no-deps install_data

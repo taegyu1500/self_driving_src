@@ -1,0 +1,69 @@
+[3.346s] Invoking command in '/home/ubuntu/ros2_ws/src/build/app': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/app/prefix_override:/home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/app/build --no-deps install_data
+[3.956s] running develop
+[3.956s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.956s] !!
+[3.956s] 
+[3.956s]         ********************************************************************************
+[3.956s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.956s]         Instead, use pypa/build, pypa/installer or other
+[3.956s]         standards-based tools.
+[3.956s] 
+[3.956s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.956s]         ********************************************************************************
+[3.957s] 
+[3.957s] !!
+[3.957s]   easy_install.initialize_options(self)
+[3.998s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.998s] !!
+[3.998s] 
+[3.998s]         ********************************************************************************
+[3.998s]         Please avoid running ``setup.py`` directly.
+[3.998s]         Instead, use pypa/build, pypa/installer or other
+[3.998s]         standards-based tools.
+[3.999s] 
+[3.999s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.999s]         ********************************************************************************
+[3.999s] 
+[3.999s] !!
+[3.999s]   self.initialize_options()
+[4.265s] running egg_info
+[4.290s] writing app.egg-info/PKG-INFO
+[4.291s] writing dependency_links to app.egg-info/dependency_links.txt
+[4.297s] writing entry points to app.egg-info/entry_points.txt
+[4.302s] writing requirements to app.egg-info/requires.txt
+[4.307s] writing top-level names to app.egg-info/top_level.txt
+[4.357s] reading manifest file 'app.egg-info/SOURCES.txt'
+[4.359s] writing manifest file 'app.egg-info/SOURCES.txt'
+[4.387s] running build_ext
+[4.390s] Creating /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app.egg-link (link to .)
+[4.391s] Installing ar_app script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+[4.391s] Installing hand_gesture script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+[4.392s] Installing hand_trajectory script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+[4.392s] Installing lidar_controller script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+[4.392s] Installing line_following script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+[4.392s] Installing object_tracking script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+[4.393s] 
+[4.393s] Installed /home/ubuntu/ros2_ws/src/build/app
+[4.393s] running install_data
+[4.393s] creating /home/ubuntu/ros2_ws/src/install/app/share/ament_index
+[4.394s] creating /home/ubuntu/ros2_ws/src/install/app/share/ament_index/resource_index
+[4.394s] creating /home/ubuntu/ros2_ws/src/install/app/share/ament_index/resource_index/packages
+[4.394s] copying resource/app -> /home/ubuntu/ros2_ws/src/install/app/share/ament_index/resource_index/packages
+[4.395s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/app/share/app
+[4.395s] creating /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[4.395s] copying launch/lidar_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[4.397s] copying launch/object_tracking_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[4.398s] copying launch/ar_app_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[4.399s] copying launch/line_following_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[4.400s] copying launch/hand_gesture_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[4.401s] copying launch/start_app.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[4.402s] creating /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[4.402s] copying models/pirate-ship-fat.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[4.404s] copying models/cow.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[4.406s] copying models/bicycle.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[4.409s] copying models/model.jpg -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[4.410s] copying models/rat.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[4.411s] copying models/chair.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[4.416s] copying models/wolf.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[4.421s] copying models/fox.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[4.805s] Invoked command in '/home/ubuntu/ros2_ws/src/build/app' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/app/prefix_override:/home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/app/build --no-deps install_data

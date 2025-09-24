@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/src/build/interfaces/rosidl_generator_c/interfaces/srv/detail/set_color_rgba__struct.h

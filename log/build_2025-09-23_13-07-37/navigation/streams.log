@@ -1,0 +1,62 @@
+[2.577s] Invoking command in '/home/ubuntu/ros2_ws/src/build/navigation': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/navigation/prefix_override:/home/ubuntu/ros2_ws/src/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/navigation/build --no-deps install_data
+[3.231s] running develop
+[3.233s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.233s] !!
+[3.233s] 
+[3.233s]         ********************************************************************************
+[3.233s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.233s]         Instead, use pypa/build, pypa/installer or other
+[3.233s]         standards-based tools.
+[3.233s] 
+[3.233s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.233s]         ********************************************************************************
+[3.233s] 
+[3.233s] !!
+[3.233s]   easy_install.initialize_options(self)
+[3.292s] /home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.292s] !!
+[3.293s] 
+[3.293s]         ********************************************************************************
+[3.293s]         Please avoid running ``setup.py`` directly.
+[3.293s]         Instead, use pypa/build, pypa/installer or other
+[3.293s]         standards-based tools.
+[3.293s] 
+[3.293s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.293s]         ********************************************************************************
+[3.293s] 
+[3.293s] !!
+[3.293s]   self.initialize_options()
+[3.633s] running egg_info
+[3.671s] writing navigation.egg-info/PKG-INFO
+[3.675s] writing dependency_links to navigation.egg-info/dependency_links.txt
+[3.679s] writing requirements to navigation.egg-info/requires.txt
+[3.682s] writing top-level names to navigation.egg-info/top_level.txt
+[3.759s] reading manifest file 'navigation.egg-info/SOURCES.txt'
+[3.765s] writing manifest file 'navigation.egg-info/SOURCES.txt'
+[3.804s] running build_ext
+[3.804s] Creating /home/ubuntu/ros2_ws/src/install/navigation/lib/python3.10/site-packages/navigation.egg-link (link to .)
+[3.804s] 
+[3.804s] Installed /home/ubuntu/ros2_ws/src/build/navigation
+[3.804s] running install_data
+[3.805s] creating /home/ubuntu/ros2_ws/src/install/navigation/share/ament_index
+[3.805s] creating /home/ubuntu/ros2_ws/src/install/navigation/share/ament_index/resource_index
+[3.805s] creating /home/ubuntu/ros2_ws/src/install/navigation/share/ament_index/resource_index/packages
+[3.805s] copying resource/navigation -> /home/ubuntu/ros2_ws/src/install/navigation/share/ament_index/resource_index/packages
+[3.805s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/navigation/share/navigation
+[3.805s] creating /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/launch
+[3.805s] copying launch/rtabmapviz.launch.py -> /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/launch
+[3.805s] copying launch/rviz_rtabmap_navigation.launch.py -> /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/launch
+[3.805s] copying launch/navigation.launch.py -> /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/launch
+[3.805s] copying launch/rtabmap_navigation.launch.py -> /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/launch
+[3.806s] copying launch/rviz_navigation.launch.py -> /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/launch
+[3.807s] creating /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/config
+[3.807s] copying config/nav2_params.yaml -> /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/config
+[3.808s] copying config/nav2_controller_dwb.yaml -> /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/config
+[3.812s] copying config/nav2_controller_teb.yaml -> /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/config
+[3.812s] creating /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/rviz
+[3.812s] copying rviz/rtabmap01.rviz -> /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/rviz
+[3.812s] copying rviz/rtabmap.rviz -> /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/rviz
+[3.812s] copying rviz/navigation_desktop.rviz -> /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/rviz
+[3.813s] copying rviz/navigation_transport.rviz -> /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/rviz
+[3.814s] copying rviz/navigation.rviz -> /home/ubuntu/ros2_ws/src/install/navigation/share/navigation/rviz
+[3.928s] Invoked command in '/home/ubuntu/ros2_ws/src/build/navigation' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/navigation/prefix_override:/home/ubuntu/ros2_ws/src/install/navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_ws/src/build/navigation/build --no-deps install_data

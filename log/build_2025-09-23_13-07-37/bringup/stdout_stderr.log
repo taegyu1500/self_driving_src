@@ -1,0 +1,48 @@
+running develop
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running egg_info
+writing bringup.egg-info/PKG-INFO
+writing dependency_links to bringup.egg-info/dependency_links.txt
+writing entry points to bringup.egg-info/entry_points.txt
+writing requirements to bringup.egg-info/requires.txt
+writing top-level names to bringup.egg-info/top_level.txt
+reading manifest file 'bringup.egg-info/SOURCES.txt'
+writing manifest file 'bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/src/install/bringup/lib/python3.10/site-packages/bringup.egg-link (link to .)
+Installing startup_check script to /home/ubuntu/ros2_ws/src/install/bringup/lib/bringup
+
+Installed /home/ubuntu/ros2_ws/src/build/bringup
+running install_data
+creating /home/ubuntu/ros2_ws/src/install/bringup/share/ament_index
+creating /home/ubuntu/ros2_ws/src/install/bringup/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/src/install/bringup/share/ament_index/resource_index/packages
+copying resource/bringup -> /home/ubuntu/ros2_ws/src/install/bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/src/install/bringup/share/bringup
+creating /home/ubuntu/ros2_ws/src/install/bringup/share/bringup/launch
+copying launch/bringup.launch.py -> /home/ubuntu/ros2_ws/src/install/bringup/share/bringup/launch

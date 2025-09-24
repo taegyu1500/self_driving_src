@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing new_sensor.egg-info/PKG-INFO
+writing dependency_links to new_sensor.egg-info/dependency_links.txt
+writing entry points to new_sensor.egg-info/entry_points.txt
+writing requirements to new_sensor.egg-info/requires.txt
+writing top-level names to new_sensor.egg-info/top_level.txt
+reading manifest file 'new_sensor.egg-info/SOURCES.txt'
+writing manifest file 'new_sensor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/src/install/new_sensor/lib/python3.10/site-packages/new-sensor.egg-link (link to .)
+Installing new_sensor script to /home/ubuntu/ros2_ws/src/install/new_sensor/lib/new_sensor
+Installing yolosub script to /home/ubuntu/ros2_ws/src/install/new_sensor/lib/new_sensor
+
+Installed /home/ubuntu/ros2_ws/src/build/new_sensor
+running install_data
+copying package.xml -> /home/ubuntu/ros2_ws/src/install/new_sensor/share/new_sensor

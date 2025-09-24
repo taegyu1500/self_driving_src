@@ -1,0 +1,67 @@
+running develop
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+/home/ubuntu/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running egg_info
+creating multi.egg-info
+writing multi.egg-info/PKG-INFO
+writing dependency_links to multi.egg-info/dependency_links.txt
+writing entry points to multi.egg-info/entry_points.txt
+writing requirements to multi.egg-info/requires.txt
+writing top-level names to multi.egg-info/top_level.txt
+writing manifest file 'multi.egg-info/SOURCES.txt'
+reading manifest file 'multi.egg-info/SOURCES.txt'
+writing manifest file 'multi.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws/src/install/multi/lib/python3.10/site-packages/multi.egg-link (link to .)
+Installing costmap_publish script to /home/ubuntu/ros2_ws/src/install/multi/lib/multi
+Installing formation_update script to /home/ubuntu/ros2_ws/src/install/multi/lib/multi
+Installing slave_tf_listener script to /home/ubuntu/ros2_ws/src/install/multi/lib/multi
+Installing tf_listen script to /home/ubuntu/ros2_ws/src/install/multi/lib/multi
+Installing tf_publish script to /home/ubuntu/ros2_ws/src/install/multi/lib/multi
+
+Installed /home/ubuntu/ros2_ws/src/build/multi
+running install_data
+creating /home/ubuntu/ros2_ws/src/install/multi/share/ament_index
+creating /home/ubuntu/ros2_ws/src/install/multi/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/src/install/multi/share/ament_index/resource_index/packages
+copying resource/multi -> /home/ubuntu/ros2_ws/src/install/multi/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/src/install/multi/share/multi
+creating /home/ubuntu/ros2_ws/src/install/multi/share/multi/launch
+copying launch/multi_controller.launch.py -> /home/ubuntu/ros2_ws/src/install/multi/share/multi/launch
+copying launch/joy_control.launch.py -> /home/ubuntu/ros2_ws/src/install/multi/share/multi/launch
+copying launch/joystick_control_multi.py -> /home/ubuntu/ros2_ws/src/install/multi/share/multi/launch
+creating /home/ubuntu/ros2_ws/src/install/multi/share/multi/launch/include
+creating /home/ubuntu/ros2_ws/src/install/multi/share/multi/config
+copying config/usb_cam_param.yaml -> /home/ubuntu/ros2_ws/src/install/multi/share/multi/config
+copying config/lidar_filters_config_a1.yaml -> /home/ubuntu/ros2_ws/src/install/multi/share/multi/config
+copying config/lidar_filters_config_g4.yaml -> /home/ubuntu/ros2_ws/src/install/multi/share/multi/config
+copying config/lidar_filters_config_ld19.yaml -> /home/ubuntu/ros2_ws/src/install/multi/share/multi/config
+copying config/lidar_filters_config_ld14p.yaml -> /home/ubuntu/ros2_ws/src/install/multi/share/multi/config
+copying config/camera_info.yaml -> /home/ubuntu/ros2_ws/src/install/multi/share/multi/config
+creating /home/ubuntu/ros2_ws/src/install/multi/share/multi/rviz
+copying rviz/lidar_view.rviz -> /home/ubuntu/ros2_ws/src/install/multi/share/multi/rviz
+copying rviz/imu_view.rviz -> /home/ubuntu/ros2_ws/src/install/multi/share/multi/rviz
